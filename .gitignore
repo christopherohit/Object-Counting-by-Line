@@ -2,3 +2,4 @@ assets/
 result/
 model/
 __pycache__
+logs/
