@@ -5,6 +5,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from torchvision.ops import sigmoid_focal_loss
+<<<<<<< HEAD
+=======
+import sys
+sys.path.append('yolov9')
+>>>>>>> 39e3820 (upload full code)
 
 from utils.general import xywh2xyxy, xyxy2xywh
 from utils.metrics import bbox_iou

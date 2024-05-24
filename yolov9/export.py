@@ -6,6 +6,10 @@ import platform
 import re
 import subprocess
 import sys
+<<<<<<< HEAD
+=======
+sys.path.append('yolov9')
+>>>>>>> 39e3820 (upload full code)
 import time
 import warnings
 from pathlib import Path

@@ -2,6 +2,11 @@ from copy import deepcopy
 
 import numpy as np
 import torch
+<<<<<<< HEAD
+=======
+import sys
+sys.path.append('yolov9')
+>>>>>>> 39e3820 (upload full code)
 
 from utils.general import LOGGER, colorstr
 from utils.torch_utils import profile

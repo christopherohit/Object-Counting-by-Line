@@ -1,6 +1,10 @@
 import argparse
 import platform
 import sys
+<<<<<<< HEAD
+=======
+sys.path.append('yolov9')
+>>>>>>> 39e3820 (upload full code)
 import time
 from pathlib import Path
 

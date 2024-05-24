@@ -1,6 +1,11 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+<<<<<<< HEAD
+=======
+import sys
+sys.path.append('yolov9')
+>>>>>>> 39e3820 (upload full code)
 
 from ..general import xywh2xyxy
 from ..loss import FocalLoss, smooth_BCE

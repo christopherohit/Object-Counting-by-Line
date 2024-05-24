@@ -1,5 +1,10 @@
 import torch
+<<<<<<< HEAD
 
+=======
+import sys
+sys.path.append('yolov9')
+>>>>>>> 39e3820 (upload full code)
 from utils.general import check_version
 
 TORCH_1_10 = check_version(torch.__version__, '1.10.0')

@@ -13,6 +13,11 @@ import torch.distributed as dist
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.parallel import DistributedDataParallel as DDP
+<<<<<<< HEAD
+=======
+import sys
+sys.path.append('yolov9')
+>>>>>>> 39e3820 (upload full code)
 
 from utils.general import LOGGER, check_version, colorstr, file_date, git_describe
 from utils.lion import Lion
