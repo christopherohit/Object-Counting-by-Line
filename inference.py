@@ -31,7 +31,7 @@ w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FR
 
 # Define region points
 # line_points = [(280, 200), (700, 180)]
-line_points = [(280, 500), (700, 480)]
+line_points = [(480, 200), (900, 180)]
 classes_to_count = [0]
 
 classes_names = {0: "person"}  # example class names
